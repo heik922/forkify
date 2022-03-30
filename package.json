@@ -2,13 +2,15 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe Application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html && parcel watch index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Mei Kwok",
   "license": "ISC",
   "dependencies": {
+    "@types/lodash-es": "^4.17.6",
     "core-js": "^3.21.1",
     "fractional": "^1.0.0",
     "fracty": "^1.0.9",
